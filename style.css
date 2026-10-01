@@ -1,0 +1,75 @@
+/* ==========================================================================
+
+ACCESSIBILITY / SKIP TO CONTENT
+========================================================================== */
+.skip-link {
+position: absolute;
+top: -100px;
+left: 10px;
+background-color: #000000;
+color: #ffffff;
+padding: 10px 15px;
+z-index: 100;
+text-decoration: underline;
+font-weight: bold;
+border-radius: 4px;
+}
+
+/* Hiển thị liên kết khi người dùng phím Tab (focus) */
+.skip-link:focus {
+top: 10px;
+}
+
+/* ==========================================================================
+2. EXISTING STYLES & COMMENTED CODE
+========================================================================== */
+
+/* Nhận xét/Ẩn kiểu dáng hiện có cho phần tử li theo yêu cầu đề bài /
+/
+li {
+display: inline;
+list-style-type: none;
+padding: 10px;
+}
+*/
+
+/* ==========================================================================
+3. NAVIGATION (NAV) STYLES
+========================================================================== */
+nav {
+display: inline-block;
+width: 80%;
+}
+
+/* Bộ chọn hậu duệ: Chỉ tạo kiểu cho hình ảnh trong nav */
+nav img {
+width: 10%;
+height: auto;
+}
+
+/* ==========================================================================
+4. GRID CLASS STYLES
+========================================================================== /
+.grid {
+display: grid;
+grid-template-columns: 40% 40%;
+justify-content: center; / Căn chỉnh vị trí các cột /
+align-items: center;    / Căn chỉnh theo chiều dọc /
+row-gap: 20px;          / Khoảng cách giữa các hàng */
+}
+
+/* Bộ chọn hậu duệ: Chỉ tạo kiểu cho hình ảnh trong lớp grid */
+.grid img {
+width: 100%;
+height: auto;
+}
+
+/* ==========================================================================
+5. FLEX CLASS STYLES
+========================================================================== */
+.flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
