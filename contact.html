@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liên hệ - Bài tập 1</title>
-    <!-- Liên kết đến cùng tệp style.css -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh sách Công viên - Khám phá Thiên nhiên</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="#main" class="skip-link">Chuyển đến Nội dung chính</a>
-<a class="skip-link" href="#main-content">Chuyển đến Nội dung chính</a>
-    <header>
-        <h1>Trang Liên Hệ</h1>
-    </header>
 
+  <!-- Liên kết Chuyển đến Nội dung chính -->
+  <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+  <header>
+    <h1>Khám phá Thiên nhiên</h1>
     <nav>
-        <ul>
-            <li><a href="index.html" style="color: white;">Trang chủ</a></li>
-            <li><a href="about.html" style="color: white;">Giới thiệu</a></li>
-            <li><a href="contact.html" style="color: white;">Liên hệ</a></li>
-        </ul>
+      <img src="https://via.placeholder.com/50" alt="Logo Thiên Nhiên">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="parks.html">Công viên</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+      </ul>
     </nav>
+  </header>
 
-<main id="main-content">
-<main id="main">
-<main id="main-content">
-    <h2>Bộ sưu tập Lưới (CSS Grid)</h2>
-    <div class="grid">
-        <div class="grid-item">
-            <img src="https://via.placeholder.com/300" alt="Ảnh 1 trong lưới">
-            <p>Mô tả ảnh 1</p>
-        </div>
-        <div class="grid-item">
-            <img src="https://via.placeholder.com/300" alt="Ảnh 2 trong lưới">
-            <p>Mô tả ảnh 2</p>
-        </div>
-    </div>
+  <main id="main-content">
+    <h2>Danh sách các Công viên Nổi bật</h2>
+    <p>Dưới đây là danh sách các công viên quốc gia sử dụng bố cục linh hoạt (Flexbox Class):</p>
 
-    <h2>Bộ sưu tập Linh hoạt (Flexbox)</h2>
+    <!-- Lớp Flex để kiểm tra xem không bị ảnh hưởng bởi .grid img -->
     <div class="flex">
-        <div class="flex-item">
-            <img src="https://via.placeholder.com/150" alt="Ảnh flex 1">
-            <p>Mục Flex 1</p>
-        </div>
-        <div class="flex-item">
-            <img src="https://via.placeholder.com/150" alt="Ảnh flex 2">
-            <p>Mục Flex 2</p>
-        </div>
+      <div class="flex-item">
+        <img src="https://via.placeholder.com/250x180" alt="Công viên Quốc gia A">
+        <h3>Công viên A</h3>
+        <p>Nổi tiếng với các dòng suối mát lành và khu cắm trại gia đình.</p>
+      </div>
+      <div class="flex-item">
+        <img src="https://via.placeholder.com/250x180" alt="Công viên Quốc gia B">
+        <h3>Công viên B</h3>
+        <p>Nơi bảo tồn nhiều loài chim quý hiếm và thảm thực vật đa dạng.</p>
+      </div>
+      <div class="flex-item">
+        <img src="https://via.placeholder.com/250x180" alt="Công viên Quốc gia C">
+        <h3>Công viên C</h3>
+        <p>Địa điểm thích hợp cho hoạt động leo núi và chèo thuyền kayak.</p>
+      </div>
     </div>
-</main>
-            </main>
+  </main>
 
-    <footer>
-        <p>&copy; 2026 Bản quyền thuộc về Học viên Coursera.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2026 Khám phá Thiên nhiên. Tất cả quyền được bảo lưu.</p>
+  </footer>
 
 </body>
 </html>

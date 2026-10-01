@@ -15,7 +15,7 @@ font-weight: bold;
 border-radius: 4px;
 }
 
-/* Hiển thị liên kết khi người dùng phím Tab (focus) */
+/* Hiển thị liên kết khi nhấn phím Tab (focus) */
 .skip-link:focus {
 top: 10px;
 }
@@ -24,8 +24,7 @@ top: 10px;
 2. EXISTING STYLES & COMMENTED CODE
 ========================================================================== */
 
-/* Nhận xét/Ẩn kiểu dáng hiện có cho phần tử li theo yêu cầu đề bài /
-/
+/* Nhận xét/Ẩn kiểu dáng hiện có cho phần tử li theo yêu cầu đề bài
 li {
 display: inline;
 list-style-type: none;
@@ -54,8 +53,8 @@ height: auto;
 display: grid;
 grid-template-columns: 40% 40%;
 justify-content: center; / Căn chỉnh vị trí các cột /
-align-items: center;    / Căn chỉnh theo chiều dọc /
-row-gap: 20px;          / Khoảng cách giữa các hàng */
+align-items: center;     / Căn chỉnh theo chiều dọc /
+row-gap: 20px;           / Khoảng cách giữa các hàng */
 }
 
 /* Bộ chọn hậu duệ: Chỉ tạo kiểu cho hình ảnh trong lớp grid */
